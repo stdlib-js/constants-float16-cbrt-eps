@@ -20,7 +20,7 @@ limitations under the License.
 
 # Cube Root of Epsilon
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > [Cube root][@stdlib/math/base/special/cbrt] of [half-precision floating-point epsilon][@stdlib/constants/float16/eps].
 
@@ -102,10 +102,10 @@ for ( i = 0; i < 100; i++ ) {
 
 ## See Also
 
--   [`@stdlib/constants/float16/eps`][@stdlib/constants/float16/eps]: difference between one and the smallest value greater than one that can be represented as a half-precision floating-point number.
--   [`@stdlib/constants/float16/sqrt-eps`][@stdlib/constants/float16/sqrt-eps]: square root of half-precision floating-point epsilon.
--   [`@stdlib/constants/float32/cbrt-eps`][@stdlib/constants/float32/cbrt-eps]: cube root of single-precision floating-point epsilon.
--   [`@stdlib/constants/float64/cbrt-eps`][@stdlib/constants/float64/cbrt-eps]: cube root of double-precision floating-point epsilon.
+-   <span class="package-name">[`@stdlib/constants/float16/eps`][@stdlib/constants/float16/eps]</span><span class="delimiter">: </span><span class="description">difference between one and the smallest value greater than one that can be represented as a half-precision floating-point number.</span>
+-   <span class="package-name">[`@stdlib/constants/float16/sqrt-eps`][@stdlib/constants/float16/sqrt-eps]</span><span class="delimiter">: </span><span class="description">square root of half-precision floating-point epsilon.</span>
+-   <span class="package-name">[`@stdlib/constants/float32/cbrt-eps`][@stdlib/constants/float32/cbrt-eps]</span><span class="delimiter">: </span><span class="description">cube root of single-precision floating-point epsilon.</span>
+-   <span class="package-name">[`@stdlib/constants/float64/cbrt-eps`][@stdlib/constants/float64/cbrt-eps]</span><span class="delimiter">: </span><span class="description">cube root of double-precision floating-point epsilon.</span>
 
 </section>
 
@@ -156,8 +156,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/constants-float16-cbrt-eps/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/constants-float16-cbrt-eps?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/constants-float16-cbrt-eps.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/constants-float16-cbrt-eps/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
