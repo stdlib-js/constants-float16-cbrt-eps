@@ -37,8 +37,8 @@
   "dependencies": {},
   "devDependencies": {
     "@stdlib/constants-float16-eps": "^0.1.1",
-    "@stdlib/math-base-special-abs": "^0.1.0",
-    "@stdlib/math-base-special-cbrt": "^0.1.0",
+    "@stdlib/math-base-special-abs": "^0.1.1",
+    "@stdlib/math-base-special-cbrt": "^0.1.1",
     "@stdlib/math-base-special-maxabs": "^0.1.0",
     "@stdlib/random-base-randu": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
