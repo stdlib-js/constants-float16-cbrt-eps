@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import FLOAT16_CBRT_EPSILON from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-cbrt-eps@deno/mod.js';
+import FLOAT16_CBRT_EPSILON from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-cbrt-eps@v0.2.0-deno/mod.js';
 ```
 
 #### FLOAT16_CBRT_EPSILON
@@ -68,7 +68,7 @@ var bool = ( FLOAT16_CBRT_EPSILON === 0.09921256574801247 );
 import abs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@deno/mod.js';
 import maxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxabs@deno/mod.js';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import FLOAT16_CBRT_EPSILON from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-cbrt-eps@deno/mod.js';
+import FLOAT16_CBRT_EPSILON from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-cbrt-eps@v0.2.0-deno/mod.js';
 
 var bool;
 var a;
