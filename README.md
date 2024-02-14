@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import FLOAT16_CBRT_EPSILON from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-cbrt-eps@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float16-cbrt-eps/tags). For example,
+
+```javascript
 import FLOAT16_CBRT_EPSILON from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-cbrt-eps@v0.2.0-esm/index.mjs';
 ```
 
@@ -73,7 +78,7 @@ var bool = ( FLOAT16_CBRT_EPSILON === 0.09921256574801247 );
 import abs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@esm/index.mjs';
 import maxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxabs@esm/index.mjs';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import FLOAT16_CBRT_EPSILON from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-cbrt-eps@v0.2.0-esm/index.mjs';
+import FLOAT16_CBRT_EPSILON from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-cbrt-eps@esm/index.mjs';
 
 var bool;
 var a;
