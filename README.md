@@ -35,32 +35,38 @@ limitations under the License.
 
 > [Cube root][@stdlib/math/base/special/cbrt] of [half-precision floating-point epsilon][@stdlib/constants/float16/eps].
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/constants-float16-cbrt-eps
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var FLOAT16_CBRT_EPSILON = require( '@stdlib/constants-float16-cbrt-eps' );
+FLOAT16_CBRT_EPSILON = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-cbrt-eps@umd/browser.js' )
+```
+
+To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
+
+```javascript
+var FLOAT16_CBRT_EPSILON = require( 'path/to/vendor/umd/constants-float16-cbrt-eps/index.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-cbrt-eps@umd/browser.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.FLOAT16_CBRT_EPSILON;
+})();
+</script>
 ```
 
 #### FLOAT16_CBRT_EPSILON
@@ -82,11 +88,16 @@ var bool = ( FLOAT16_CBRT_EPSILON === 0.09921256574801247 );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var abs = require( '@stdlib/math-base-special-abs' );
-var maxabs = require( '@stdlib/math-base-special-maxabs' );
-var randu = require( '@stdlib/random-base-randu' );
-var FLOAT16_CBRT_EPSILON = require( '@stdlib/constants-float16-cbrt-eps' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxabs@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-cbrt-eps@umd/browser.js"></script>
+<script type="text/javascript">
+(function () {
 
 var bool;
 var a;
@@ -109,6 +120,11 @@ for ( i = 0; i < 100; i++ ) {
     bool = isApprox( a, b );
     console.log( '%d %s approximately equal to %d', a, ( bool ) ? 'is' : 'is not', b );
 }
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -204,17 +220,17 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-float16-cbrt-eps/main/LICENSE
 
-[@stdlib/math/base/special/cbrt]: https://github.com/stdlib-js/math-base-special-cbrt
+[@stdlib/math/base/special/cbrt]: https://github.com/stdlib-js/math-base-special-cbrt/tree/umd
 
 <!-- <related-links> -->
 
-[@stdlib/constants/float16/eps]: https://github.com/stdlib-js/constants-float16-eps
+[@stdlib/constants/float16/eps]: https://github.com/stdlib-js/constants-float16-eps/tree/umd
 
-[@stdlib/constants/float16/sqrt-eps]: https://github.com/stdlib-js/constants-float16-sqrt-eps
+[@stdlib/constants/float16/sqrt-eps]: https://github.com/stdlib-js/constants-float16-sqrt-eps/tree/umd
 
-[@stdlib/constants/float32/cbrt-eps]: https://github.com/stdlib-js/constants-float32-cbrt-eps
+[@stdlib/constants/float32/cbrt-eps]: https://github.com/stdlib-js/constants-float32-cbrt-eps/tree/umd
 
-[@stdlib/constants/float64/cbrt-eps]: https://github.com/stdlib-js/constants-float64-cbrt-eps
+[@stdlib/constants/float64/cbrt-eps]: https://github.com/stdlib-js/constants-float64-cbrt-eps/tree/umd
 
 <!-- </related-links> -->
 
